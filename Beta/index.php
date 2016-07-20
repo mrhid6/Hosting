@@ -269,6 +269,7 @@
 
                     <ul class="logos span12">
                         <li><img src="http://voguegarforth.co.uk/images/logo.png" alt="Logo image"></li>
+                        <li><img src="http://robertmilnerrm.hostxtra.co.uk/images/logo_alt.png" alt="Logo image"></li>
                     </ul>
                 </div>
             </div>

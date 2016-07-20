@@ -252,10 +252,12 @@ ul#navigation li ul li:hover > a {
     display: table-cell;
     padding: 0 15px;
     text-align: center;
+    width:200px;
 }
 #content .white-section .logos li img{
     margin-bottom:21px;
-    width:200px;
+    max-width:200px;
+    max-height:70px;
 }
 
 #content .blue-section {
