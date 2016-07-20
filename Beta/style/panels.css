@@ -1,0 +1,153 @@
+.panel.blue{
+    background: #0b5777;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4ba2e5+0,0b5777+100 */
+    background: -moz-linear-gradient(top,  #4ba2e5 0%, #0b5777 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ba2e5), color-stop(100%,#0b5777)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #4ba2e5 0%,#0b5777 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ba2e5', endColorstr='#0b5777',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+    border-color: #217798;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    padding: 12px 0;
+}
+
+.panel.radius {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.panel {
+    background: #f2f2f2;
+    border: solid 1px #e6e6e6;
+    margin-bottom:20px;
+    padding: 20px;
+    overflow: hidden;
+    display:block;
+    float:left;
+    text-align: center;
+    margin-left:18px !important;
+}
+
+.panel:last-child{
+
+}
+
+.panel .title {
+    text-align: center;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    height:37px;
+}
+
+.panel .title h3{
+    text-align: center;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.panel h4 {
+    color: #fff;
+    font-size: 26px;
+    margin: 0 0 3px 0;
+    padding: 0;
+}
+
+.panel .price ,.panel .orderbar {
+    text-align: center;
+    padding: 7px 0;
+    background: #217798 ;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0 -5px 35px rgba(255,255,255,0.3);
+    position: relative;
+    color:#fff;
+    padding-bottom:20px;
+}
+
+.panel .orderbar{
+    padding-bottom:7px;
+}
+
+.panel .price:after {
+    content: '';
+    width: 100%;
+    height: 33px;
+    background: transparent url('images/background-overlay-pricing-table.png') no-repeat center top;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.panel .elements{
+    background:#ffffff;
+}
+
+.panel ul{
+    line-height: 1.6;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.panel ul li {
+    padding: 2px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.panel .button, .homepage-services .button{
+    color:#fff;
+    width: auto;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 100%;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background: #d74937;
+    -webkit-box-shadow: inset 0 -3px 1px rgba(0, 0, 0, 0.45), 0 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 -3px 1px rgba(0, 0, 0, 0.45), 0 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 -3px 1px rgba(0, 0, 0, 0.45), 0 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #2d2d2d;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+    font-weight: 600;
+}
+.panel .button.radius, .homepage-services .button.radius {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.panel.blue .button, .homepage-services .button {
+    background: #edecf2;
+    border: none;
+    color: #363636;
+    text-shadow: none;
+    font-size: 13px;
+}
+.panel.blue .button:hover, .homepage-services .button:hover {
+    background: #d5d4da;
+}
+

@@ -1,0 +1,573 @@
+body{
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+a, p, h1, h2, h3, h4, h5, h6, span, blockquote, li, input, textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 0 21px 0;
+    padding: 0;
+    color: #545454;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 6px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 9px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 18px;
+}
+
+hr {
+    border: none;
+    height: 0;
+    border-top: 1px solid #326a8d;
+    border-bottom: 1px solid #68a0c1;
+    margin: 0;
+}
+
+.main-page-wrapper .top-background {
+    background: transparent url("images/background-clouds.jpg") no-repeat 50% top;
+    min-height: 250px;
+}
+
+.main-page-wrapper .top-background:after {
+    content: '';
+    background: transparent url("images/background-overlay-header.png") no-repeat 50% bottom;
+    width: 100%;
+    height: 109px;
+    display: block;
+    margin-top: -31px;
+}
+
+.top-menu-wrapper{
+    width: 100%;
+    height: 49px;
+    background: #13435f;
+}
+
+.top-menu-wrapper ul, .top-menu-wrapper li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.top-menu-wrapper ul li {
+    float: left;
+}
+
+.top-menu-wrapper ul li a {
+    font-size: 12px;
+    line-height: 29px;
+    color: #f0f0f0;
+    padding: 10px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.top-menu-wrapper ul li a:hover {
+    background-color: #0b2535;
+}
+
+.top-menu-wrapper ul li a i {
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.top-menu-wrapper ul li:last-child {
+    float: right;
+    margin-right: 0;
+}
+.logo {
+    margin: 44px 0 0 0;
+    display: block;
+    font-size: 0;
+}
+
+#nav {
+    position:relative;
+    margin-top:62px;
+    margin-left: 180px;
+}
+
+ul#navigation {
+    position:relative;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+ul#navigation li {
+    display:inline;
+    font-size:12px;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+    float:left;
+    position:relative;
+}
+
+ul#navigation li a {
+    padding:8px 20px;
+    color: #ffffff;
+    text-decoration:none;
+    display:inline-block;
+
+    -webkit-transition:color 0.1s linear, background 0.1s linear;
+    -moz-transition:color 0.1s linear, background 0.1s linear;
+    -o-transition:color 0.1s linear, background 0.1s linear;
+    transition:color 0.1s linear, background 0.1s linear;
+    margin:0;
+}
+
+ul#navigation li a:hover {
+    background:#13435f;
+}
+
+ul#navigation li a.first {
+    border-left: 0 none;
+}
+
+ul#navigation li a.last {
+    border-right: 0 none;
+}
+
+ul#navigation li:hover > a {
+    background:#13435f;
+}
+
+ul#navigation li:hover > ul
+{
+    /*these 2 styles are very important,
+    being the ones which make the drop-down to appear on hover */
+    visibility:visible;
+    opacity:1;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*the next 2 styles are very important,
+    being the ones which make the drop-down to stay hidden */
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+    width:180px;
+    background:#f8f8f8;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    /* css3 transitions for smooth hover effect */
+    -webkit-transition:opacity 0.1s linear, visibility 0.1s linear;
+    -moz-transition:opacity 0.1s linear, visibility 0.1s linear;
+    -o-transition:opacity 0.1s linear, visibility 0.1s linear;
+    transition:opacity 0.1s linear, visibility 0.1s linear;
+}
+
+ul#navigation ul {
+    top: 37px;
+    left: 1px;
+}
+
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px; /* strong related to width:180px; from above */
+}
+
+ul#navigation ul li {
+    clear:both;
+    width:100%;
+    border:0 none;
+    border-bottom:1px solid #c9c9c9;
+}
+
+ul#navigation ul li a {
+    background:none;
+    padding:7px 15px;
+    color:#616161;
+    text-shadow:1px 1px 0px #e7e7e7;
+    text-decoration:none;
+    display:inline-block;
+    border:0 none;
+    float:left;
+    clear:both;
+    width:150px;
+    margin:0;
+}
+
+ul#navigation li ul li:hover > a {
+    background: #d2d2d2;
+}
+
+.white-section {
+    color: #545454;
+}
+
+#content .white-section .logos {
+    padding: 0;
+    margin: 0 0 0 20px;
+    display: block;
+}
+
+#content .white-section .logos li {
+    list-style-type: none;
+    display: table-cell;
+    padding: 0 15px;
+    text-align: center;
+}
+#content .white-section .logos li img{
+    margin-bottom:21px;
+    width:200px;
+}
+
+#content .blue-section {
+    background: transparent url('images/background-overlay-top.png') no-repeat 50% top;
+    padding-top: 136px;
+    margin-top: -21px;
+    background-color: #347fac;
+    color: white;
+}
+#content .blue-section:after {
+    content: '';
+    display: block;
+    height: 78px;
+    width: 100%;
+    margin-top: 0;
+    background: transparent url('images/background-overlay-bottom.png') no-repeat 50% bottom;
+}
+
+.blue-section .homepage-style, .blue-section p, .blue-section a{
+    color:#ffffff;
+}
+.blue-section a{
+    font-weight: 700;
+}
+
+.blue-section a:hover{
+    text-decoration: underline;
+}
+
+#content .blue-section .testimonials {
+    padding: 0;
+    margin: 0;
+}
+
+#content .blue-section .testimonials li {
+    list-style-type: none;
+}
+
+#content .blue-section .testimonials .testimonial {
+    background: transparent url('images/background-testimonial.png') no-repeat right bottom;
+    width: 334px;
+    height: 120px;
+    float: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px 40px 20px 20px;
+}
+
+#content .blue-section .testimonials p {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+#content .blue-section .testimonials span {
+    font-size: 13px;
+    color:#ffffff;
+}
+
+#content .blue-section .testimonials .testimonial-image {
+    display: block;
+    float: left;
+    margin: -10px 20px 0 -80px;
+    border-radius: 70px;
+}
+
+#content .blue-section .testimonials span:before {
+    content: '---';
+    margin-right: 5px;
+}
+footer#footer {
+    width: 100%;
+    background-color: #0f344a;
+    color: white;
+}
+
+footer#footer:before {
+    content: '';
+    background: transparent url('images/background-overlay-footer.png') no-repeat 50% top;
+    height: 104px;
+    display: block;
+}
+footer#footer .container {
+    margin-top: 50px;
+}
+
+footer#footer .row:first-child {
+    margin-bottom: 10px;
+}
+footer#footer .row {
+    margin-bottom: 30px;
+}
+
+footer#footer h5 {
+    color: #ffffff;
+    font-weight: 700;
+}
+footer#footer p{
+    color:white;
+}
+
+footer#footer ul {
+    padding-left: 0px;
+}
+footer#footer ul li {
+    list-style-position: inside;
+    list-style-type: none;
+}
+footer#footer ul li a {
+    padding: 2px 10px;
+    display: block;
+    margin-bottom: 0;
+    border-radius: 3px;
+    color:white;
+}
+footer#footer ul li a:before {
+    font-family: 'FontAwesome';
+    content: '\f101';
+    margin-right: 7px;
+}
+
+footer#footer ul li a:hover {
+    color: white;
+    background-color: #0b2535;
+}
+
+footer#footer #newsletter-wrapper {
+    position: relative;
+    width: 614px;
+}
+footer#footer #newsletter-wrapper, footer#footer #social-icons-wrapper {
+    height: 69px;
+    background-color: #0b2535;
+}
+
+footer#footer #newsletter-wrapper #newsletter, footer#footer #social-icons-wrapper #newsletter, footer#footer #newsletter-wrapper #social-icons, footer#footer #social-icons-wrapper #social-icons {
+    padding: 18px;
+}
+
+footer#footer #newsletter-wrapper #newsletter h5, footer#footer #social-icons-wrapper #newsletter h5, footer#footer #newsletter-wrapper #social-icons h5, footer#footer #social-icons-wrapper #social-icons h5 {
+    font-weight: 300;
+    text-transform: none;
+    float: left;
+    font-size: 18px;
+    line-height: 32px;
+}
+footer#footer #newsletter-wrapper #newsletter #newsletterForm input {
+    background-color: #0f344a;
+    color: #d4d4d4;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 5px 10px 4px;
+    margin: 0 10px;
+    width: 39%;
+    outline-color: #196592;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+footer#footer #newsletter-wrapper #newsletter #newsletterForm button {
+    background-color: #071923;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px 20px 9px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    outline:none;
+    cursor: pointer;
+}
+footer#footer #newsletter-wrapper #newsletter #newsletterForm button:hover {
+    background-color: #0f344a;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+footer#footer #newsletter-wrapper:after {
+    content: '';
+    background: transparent url('images/background-footer-newsletter-social.png') no-repeat top right;
+    height: 69px;
+    width: 26px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -26px;
+}
+
+footer#footer #social-icons-wrapper {
+    margin-left: 26px;
+}
+
+footer#footer #social-icons-wrapper #social-icons ul {
+    float: left;
+    margin: 3px 0 0 0;
+    padding-left: 22px;
+}
+footer#footer #social-icons-wrapper #social-icons ul li {
+    display: block;
+    float: left;
+}
+footer#footer #social-icons-wrapper #social-icons ul li a:before {
+    content: '';
+    margin-right: 0;
+}
+footer#footer #social-icons-wrapper #social-icons ul li a {
+    display: block;
+    height: 15px;
+    width: 29px;
+    margin-right: 5px;
+    padding: 7px 0 8px;
+    background-color: #081c28;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+footer#footer #social-icons-wrapper #social-icons ul li a:hover {
+    background-color: #0f344a;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+footer#footer hr {
+    margin-bottom: 30px;
+    border-top-color: #144663;
+    border-bottom-color: #0b2535;
+}
+
+footer#footer .support-list li a:before, footer#footer .support-list li:hover a:before {
+    content: '';
+    margin-right: 0;
+}
+
+footer#footer .support-list li i, footer#footer .support-list li:hover i {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.container:after {
+    clear: both;
+}
+
+.container:before, .container:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.hidden-desktop {
+    display: none !important;
+}
+.homepage-style {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 21px;
+}
+
+.features-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.features-list li img {
+    margin: -3px 10px 0 0;
+    vertical-align: middle;
+}
+
+.homepage-services .post{
+    height:230px;
+    text-align: center;
+}
+
+.homepage-services .feature-icon{
+    margin-bottom: 10px;
+    float: none;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 940px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    color: white;
+    background-color: #13435f;
+    padding: 10px;
+    display: none;
+    z-index: 9999;
+}

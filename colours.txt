@@ -1,0 +1,2 @@
+Main Blue: #25afdc
+Main BG: #0ca3d2
