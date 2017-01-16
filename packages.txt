@@ -1,0 +1,45 @@
+HostXtra Packages:
+
+Starter:
+1 Domain Name
+10 Subdomain Names
+1 Database
+1 Mail Domain
+1 Mail Account
+1 Backup
+1 Cron Tab
+2gb Disk Storage
+20gb Bandwidth
+
+Intermediate:
+3 Domain Name
+20 Subdomain Names
+3 Databases
+1 Mail Domain
+10 Mail Accounts
+3 Backups
+5 Cron Tabs
+5gb Disk Storage
+25gb Bandwidth
+
+Premium:
+5 Domain Names
+Unlimited Subdomain Names
+Unlimited Databases
+5 Mail Domains
+Unlimited Mail Accounts
+10 Backups
+10 Cron Tabs
+10gb Disk Storage
+30gb Bandwidth
+
+Advanced:
+Unlimited Domain Names
+Unlimited Subdomain Names
+Unlimited Databases
+Unlimited Mail Domains
+Unlimited Mail Accounts
+20 Backups
+20 Cron Tabs
+20gb Disk Storage
+100gb Bandwidth

@@ -1,18 +1,14 @@
+.panel-wrapper{
+    margin-top:50px;
+    height:400px;
+}
 .panel.blue{
-    background: #0b5777;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4ba2e5+0,0b5777+100 */
-    background: -moz-linear-gradient(top,  #4ba2e5 0%, #0b5777 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ba2e5), color-stop(100%,#0b5777)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #4ba2e5 0%,#0b5777 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #4ba2e5 0%,#0b5777 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ba2e5', endColorstr='#0b5777',GradientType=0 ); /* IE6-9 */
+    background: #215b7c;
     color: #fff;
     border-color: #217798;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
     padding: 12px 0;
 }
 
@@ -39,23 +35,37 @@
 .panel:last-child{
 
 }
-
+.panel.recommended{
+    margin-top:-20px;
+}
+.panel.recommended .title{
+    height:60px;
+    line-height: 60px;
+}
+.panel.recommended .title h3{
+    height:60px;
+    line-height: 55px;
+}
 .panel .title {
     text-align: center;
     font-size: 19px;
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
     color: #fff;
     position: relative;
-    height:37px;
+    height:40px;
+    overflow: auto;
 }
 
 .panel .title h3{
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     color: #fff;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0 -5px 35px rgba(255,255,255,0.3);
+    height:40px;
+    line-height: 37px;
 }
 
 .panel h4 {
@@ -64,7 +74,9 @@
     margin: 0 0 3px 0;
     padding: 0;
 }
-
+.panel .price{
+    border-top: #1d2f4b solid 1px;
+}
 .panel .price ,.panel .orderbar {
     text-align: center;
     padding: 7px 0;
@@ -91,6 +103,8 @@
 
 .panel .elements{
     background:#ffffff;
+    padding-top:10px;
+    padding-bottom:15px;
 }
 
 .panel ul{

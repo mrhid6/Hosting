@@ -125,3 +125,11 @@ ul li {
     content: "";
     line-height: 0;
 }
+
+.center-heading{
+    text-align: center;
+}
+
+.thin-heading{
+    font-weight:lighter !important;
+}
