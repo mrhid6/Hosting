@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="200" viewBox="0 0 250 200">
+   <rect x="25" y="40" width="100" height="30" rx="15" ry="15" fill="none" stroke="black" stroke-width="5" />
+   <rect x="25" y="70" width="100" height="30" rx="15" ry="15" fill="none" stroke="black" stroke-width="5" />
+   <rect x="25" y="100" width="100" height="30" rx="15" ry="15" fill="none" stroke="black" stroke-width="5" />
+   
+   <line x1="40" y1="55" x2="70" y2="55" stroke-width="6" stroke="black" stroke-linecap="round" />
+   <line x1="40" y1="85" x2="70" y2="85" stroke-width="6" stroke="black" stroke-linecap="round" />
+   <line x1="40" y1="115" x2="70" y2="115" stroke-width="6" stroke="black" stroke-linecap="round" />
+   
+   <circle cx="90" cy="55" r="5" stroke="black" stroke-width="0"/>
+   <circle cx="110" cy="55" r="5" stroke="black" stroke-width="0"/>
+   
+   <circle cx="90" cy="85" r="5" stroke="black" stroke-width="0"/>
+   <circle cx="110" cy="85" r="5" stroke="black" stroke-width="0"/>
+   
+   <circle cx="90" cy="115" r="5" stroke="black" stroke-width="0"/>
+   <circle cx="110" cy="115" r="5" stroke="black" stroke-width="0"/>
+   
+   <line x1="25" y1="155" x2="55" y2="155" stroke-width="6" stroke="black" stroke-linecap="round" />
+   <circle cx="75" cy="155" r="6" stroke="black" stroke-width="5" fill="none"/>
+   <line x1="75" y1="135" x2="75" y2="145" stroke-width="6" stroke="black" stroke-linecap="round" />
+   <line x1="95" y1="155" x2="125" y2="155" stroke-width="6" stroke="black" stroke-linecap="round" />
+   
+    <line x1="150" y1="25" x2="150" y2="145" stroke-width="6" stroke="black" stroke-linecap="round" />
+
+    <line x1="150" y1="25" x2="160" y2="25" stroke-width="6" stroke="black" stroke-linecap="round" />
+    <line x1="145" y1="85" x2="155" y2="85" stroke-width="6" stroke="black" stroke-linecap="round" />
+    <line x1="150" y1="145" x2="160" y2="145" stroke-width="6" stroke="black" stroke-linecap="round" />
+  
+    <rect x="175" y="12.5" width="35" height="35" rx="0.5" ry="0.5" fill="none" stroke="black" stroke-width="5" stroke-linecap="round" />
+    <circle cx="183.5" cy="20" r="1.5" stroke="black" stroke-width="3" fill="none"/>
+    <line x1="193" y1="20" x2="202.5" y2="20" stroke-width="4" stroke="black"/>
+    <line x1="175" y1="27" x2="210" y2="27" stroke-width="5" stroke="black" />
+
+    <rect x="175" y="67.5" width="35" height="35" rx="0.5" ry="0.5" fill="none" stroke="black" stroke-width="5" stroke-linecap="round" />
+    <circle cx="183.5" cy="75" r="1.5" stroke="black" stroke-width="3" fill="none"/>
+    <line x1="193" y1="75" x2="202.5" y2="75" stroke-width="4" stroke="black" />
+    <line x1="175" y1="82" x2="210" y2="82" stroke-width="5" stroke="black"/>
+
+    <rect x="175" y="127.5" width="35" height="35" rx="0.5" ry="0.5" fill="none" stroke="black" stroke-width="5" stroke-linecap="round" />
+    <circle cx="183.5" cy="135" r="1.5" stroke="black" stroke-width="3" fill="none"/>
+    <line x1="193" y1="135" x2="202.5" y2="135" stroke-width="4" stroke="black" />
+    <line x1="175" y1="142" x2="210" y2="142" stroke-width="5" stroke="black"/>
+</svg> 

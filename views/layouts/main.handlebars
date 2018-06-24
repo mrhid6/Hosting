@@ -11,35 +11,49 @@
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/client/app/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/client/app/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/client/app/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/client/app/images/icons/site.webmanifest">
+    <link rel="mask-icon" href="/client/app/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/client/app/images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/client/app/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-mini">
         <div class="container">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav navbar-contact mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <i class="fas fa-phone"></i> +44 (0)1234 567890</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-envelope"></i> info@hostxtra.co.uk</a>
+                </li>
             </ul>
             <ul class="navbar-nav navbar-social ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link nav-social-f" href="#">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link nav-social-t" href="#">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link nav-social-g" href="#">
                         <i class="fab fa-google-plus-g"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">
+                    <a class="nav-link nav-social-r" href="#">
                         <i class="fas fa-rss"></i>
                     </a>
                 </li>
@@ -75,11 +89,20 @@
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Domains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    {{body}}
+    {{{body}}}
 </body>
 
 </html>
