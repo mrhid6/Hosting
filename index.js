@@ -33,6 +33,7 @@ function startExpress() {
 
     app.use("/bower_components", express.static(__dirname + '/bower_components'));
     app.use("/client", express.static(__dirname + '/client'));
+    app.use("/.well-known", express.static(__dirname + '/.well-known'));
 
     app.use(require('./controllers'));
 
