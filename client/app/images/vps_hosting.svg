@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="2.22222in" height="2.22222in"
+     viewBox="0 0 200 200">
+  <path id="Unnamed"
+        fill="none" stroke="black" stroke-width="5"
+        d="M 151.49,114.66
+           C 171.00,111.86 177.99,91.91 177.99,85.10
+             175.57,52.75 144.23,54.21 140.35,55.30M 42.21,52.82
+           C 39.67,55.13 23.57,63.33 23.57,83.15
+             24.76,101.34 37.97,110.76 48.44,114.70M 84.08,50.19
+           C 84.44,47.52 82.63,29.27 63.26,28.66
+             56.61,28.66 41.96,34.26 42.20,52.87M 153.02,55.58
+           C 153.38,43.17 146.13,14.27 111.25,13.57
+             90.31,13.69 77.15,28.38 75.21,32.27M 48.98,114.78" stroke-linecap="round"/>
+	<rect x="60" y="70" width="80" height="25" rx="12" ry="12" fill="none" stroke="black" stroke-width="5" />
+	<rect x="60" y="95" width="80" height="25" rx="12" ry="12" fill="none" stroke="black" stroke-width="5" />
+	<rect x="60" y="120" width="80" height="25" rx="12" ry="12" fill="none" stroke="black" stroke-width="5" />
+	
+	<line x1="75" y1="82.5" x2="95" y2="82.5" stroke-width="6" stroke="black" stroke-linecap="round" />
+	<line x1="75" y1="107.5" x2="95" y2="107.5" stroke-width="6" stroke="black" stroke-linecap="round" />
+	<line x1="75" y1="132.5" x2="95" y2="132.5" stroke-width="6" stroke="black" stroke-linecap="round" />
+   
+	<circle cx="110" cy="82.5" r="4" stroke="black" stroke-width="0"/>
+	<circle cx="125" cy="82.5" r="4" stroke="black" stroke-width="0"/>
+   
+	<circle cx="110" cy="107.5" r="4" stroke="black" stroke-width="0"/>
+	<circle cx="125" cy="107.5" r="4" stroke="black" stroke-width="0"/>
+   
+	<circle cx="110" cy="132.5" r="4" stroke="black" stroke-width="0"/>
+	<circle cx="125" cy="132.5" r="4" stroke="black" stroke-width="0"/>
+	
+	<line x1="25" y1="165" x2="80" y2="165" stroke-width="6" stroke="black" stroke-linecap="round" />
+	<circle cx="100" cy="165" r="6" stroke="black" stroke-width="5" fill="none"/>
+	<line x1="100" y1="145" x2="100" y2="160" stroke-width="6" stroke="black" />
+	<line x1="120" y1="165" x2="175" y2="165" stroke-width="6" stroke="black" stroke-linecap="round" />
+</svg>
