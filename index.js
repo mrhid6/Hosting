@@ -31,7 +31,7 @@ function startExpress() {
     // methodOverride
     app.use(methodOverride('_method'));
 
-    app.use("/bower_components", express.static(__dirname + '/bower_components'));
+    app.use("/libraries", express.static(__dirname + '/node_modules'));
     app.use("/client", express.static(__dirname + '/client'));
     app.use("/.well-known", express.static(__dirname + '/.well-known'));
 
