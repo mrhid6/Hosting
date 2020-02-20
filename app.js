@@ -42,7 +42,8 @@ function startExpress() {
     app.engine('hbs', hbs({
         extname: 'hbs',
         defaultView: 'main',
-        layoutsDir: __dirname + '/views/layouts/'
+        layoutsDir: __dirname + '/views/layouts/',
+	helpers: require(__dirname+'/config/handlebars-helpers')
     }));
 
     // methodOverride
