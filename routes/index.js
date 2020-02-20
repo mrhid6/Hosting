@@ -9,4 +9,6 @@ router.get('/about', function (req, res) {
     res.send('Learn about us')
 })
 
+router.use("/hosting", require("./hosting"));
+
 module.exports = router
