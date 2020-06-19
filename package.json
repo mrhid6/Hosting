@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mrhid6/Hosting#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-free": "^5.13.1",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.5.0",
     "cors": "^2.8.5",
